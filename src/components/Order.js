@@ -35,9 +35,8 @@ function Order(props) {
         ) : (
           <p>No sides</p>
         )}
-
         {/* this is just a shortcut to writing state.isClicked ? <Side sides={props.sides} /> : null */}
-        {state.isClicked && <Side sides={props.sides} />}
+        {/*state.isClicked && <Side sides={props.sides} />*/}
       </div>
     </div>
   );
